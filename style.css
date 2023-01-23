@@ -271,12 +271,39 @@ textarea{
 }
 
 
-input[type="submit"]{
+/* input[type="submit"]{
     margin: 15px 0 15px 520px;
     width: 100px;
     height: 30px;
     background-color: #4977d1;
     color: #fff;
+} */
+
+.randomcode input{
+    margin-top: 50px;
+    margin-left: 280px;
+    width: 9em;
+}
+
+#codes{
+    display: inline;
+    width: 8em;
+    font-size: 1,2em;
+    background-color: rgb(189, 189, 189);
+    color: #000;
+    border: none;
+}
+
+form .button input{
+    margin-left: 520px;
+    margin-top: 50px;
+    width:8em;
+    height: 2.5em;
+    font-size: 1,2em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    /*background-color: #4977d1;*/
 }
 
 /* cliff */
